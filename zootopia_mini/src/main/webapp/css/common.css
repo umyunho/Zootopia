@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+
+/* 기본 세팅 */
+.wrapper { width:1300px; margin:0 auto;  }
+.displaynone { display:none; }
+.wrapper > #content { padding:130px 0; }
+
+/* 메인페이지 css */

@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+
+
+
+/* 헤더 */
+header { width:100%; box-shadow: 15px 15px 18px rgba(0, 0, 0, 0.04); }
+
+.header-container { display:flex; justify-content: space-between; align-items: center; max-width:1300px; margin:0 auto; height:65px;  }
+.header-container .logo-menu { display:flex; align-items: center; }
+.header-container .logo {  }
+.header-container .logo a { color:#000; font-size:25px; font-weight:600; }
+.header-container .navigation { margin-left:101px; }
+.header-container .navigation ul { display:flex; }
+.header-container .navigation ul li {  }
+.header-container .navigation ul li a { font-size:16px; margin-right:35px; font-weight:600; }
+.header-container .navigation ul li a:hover { color:#000; font-weight:800;}
+
+
+.header-container .login-menu {  }
+.header-container .login-menu > div {  }
+.header-container .login-menu > div a { font-size:16px; color:#333; margin-left:20px; font-weight:600; }
+
+
+/* 푸터 */
+footer { background:#EEEEEE; padding:60px 0;  }
+footer .wrapper { display:flex; justify-content: space-between; }
+footer .wrapper .left {  }
+footer .wrapper .left .logo-wrapper {  }
+footer .wrapper .left .logo-wrapper a { font-size:40px; color:#000; font-weight:700; }
+footer .wrapper .left .logo-wrapper p { font-size:15px; color:#333; margin-top:12px; display:block; }
+
+
+footer .wrapper .left .admin-info { margin-top:36px; }
+footer .wrapper .left .admin-info p {  }
+footer .wrapper .left .admin-info span { display:block; margin-top:8px; }
+footer .wrapper .left .admin-info a { display:inline-block; border-bottom:1px solid #555; position:relative; margin-top:13px; }
+footer .wrapper .left .admin-info a img { position:relative; top:6px; margin-left: 9px; }
+
+
+footer .wrapper .right { margin-top:30px; }
+footer .wrapper .right .menu-wrapper {  }
+footer .wrapper .right .menu-wrapper ul { display:flex;  justify-content: flex-end;}
+footer .wrapper .right .menu-wrapper ul li { margin: 0 15px; position:relative; }
+footer .wrapper .right .menu-wrapper ul li span {  width:1px; height:10px; display:block; background:#999999; position: relative; top: 5px; }
+footer .wrapper .right .menu-wrapper ul li a { color:#000;  }
+footer .wrapper .right .text-wrapper p { margin-top:42px; text-align: right; }
+ 
+
+
+
+
